@@ -8,6 +8,8 @@ I needed to run a command in an Alpine Docker container only after another proce
 
 Based on https://github.com/vishnubob/wait-for-it. Many thanks!
 
+Uses: https://en.wikipedia.org/wiki/Netcat
+
 #### Setup
 * chmod +x wait-for-it.sh
 * Change shebang line as needed:
