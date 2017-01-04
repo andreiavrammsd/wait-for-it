@@ -31,8 +31,9 @@ Uses: https://en.wikipedia.org/wiki/Netcat
 
 ```
 ./wait-for-it.sh -h www.google.com -p 80 -t 5 -c "echo Google is up" -q
-```
-
-```
 ./wait-for-it.sh -h www.google.com -p 8080 -t 5
 ```
+
+#### Other
+
+See this, too: https://github.com/jwilder/dockerize
