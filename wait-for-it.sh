@@ -90,7 +90,7 @@ done
 
 if [ $run -eq 1 ]; then
     if [[ ! $QUIET -eq 1 ]]; then
-        echo Sucess
+        echo Success
     fi
 
     if [[ ! "$COMMAND" == "" ]]; then
