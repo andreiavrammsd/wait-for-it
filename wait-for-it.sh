@@ -1,6 +1,13 @@
 #!/usr/bin/env sh
 ##!/usr/bin/env bash
 
+# check if netcat is installed
+check=$(nc &> /dev/null; echo $?)
+if [[ ! "$check" -eq 1 ]]; then
+    echo Error: 'nc' not found.
+    exit 1
+fi
+
 cmdname=$(basename $0)
 
 usage()
